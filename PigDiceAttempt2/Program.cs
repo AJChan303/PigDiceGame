@@ -8,7 +8,7 @@ namespace PigDiceAttempt2 {
             int start = dice[ran.Next(0, dice.Length)];
             
             int total = 0;
-            Console.WriteLine($"Dice roll: {start}");
+            Console.WriteLine($"Dice roll: {start}"); 
 
             while (start != 1) {
                 start = dice[ran.Next(0, dice.Length)];
